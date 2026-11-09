@@ -1,4 +1,24 @@
-# Curso practico de Backend
+# Arquitectura backend · Camera Reviews
+
+**Práctica de arquitectura para reseñas de cámaras, con modelos, servicio de contenido, pruebas y una función de publicación.**
+
+[![Repositorio](https://img.shields.io/badge/GitHub-GermanBartoli-181717?logo=github)](https://github.com/GermanBartoli/CSharp-Architecture-Backend)
+
+[Empezar](#primeros-pasos) · [Mapa del repositorio](#mapa-del-repositorio) · [Autoría](#autoría-de-esta-documentación)
+
+![Guía visual: Arquitectura backend · Camera Reviews](docs/readme/guia.svg)
+
+*Esquema de orientación; no representa una captura de la aplicación.*
+
+## Primeros pasos
+
+1. Abrí `CameraReviewsBackend.sln` y recorré primero el modelo `CameraReview/`.
+2. Revisá `CameraReviewUnitTests/` para comprender los contratos antes de configurar servicios externos.
+3. Los proyectos principales declaran `netcoreapp3.1`; prepará un entorno compatible. El texto original del curso se conserva como referencia, con su autoría original.
+
+## Entorno de aprendizaje
+
+Este repositorio conserva ejercicios y versiones de su etapa de estudio. Revisá los archivos de proyecto para preparar el SDK, runtime o servidor correspondiente; esta actualización del README no migra dependencias ni acredita una ejecución reciente de todos los ejemplos.
 
 ## Anuncio de lanzamiento
 Al dia martes Diciembre/29/2020 se lanza el curso practico de Backend.
@@ -19,3 +39,16 @@ Creación del documento de diseño Clase 9 / 25
 https://sequencediagram.org/
 
 https://www.drawio.com/
+
+## Mapa del repositorio
+
+- [CameraReview/CameraReview.csproj](<CameraReview/CameraReview.csproj>)
+- [CameraReviewContentProviderService/CameraReviewContentProviderService.csproj](<CameraReviewContentProviderService/CameraReviewContentProviderService.csproj>)
+- [CameraReviewUnitTests/CameraReviewUnitTests.csproj](<CameraReviewUnitTests/CameraReviewUnitTests.csproj>)
+- [LICENSE](<LICENSE>)
+
+## Autoría de esta documentación
+
+Repositorio mantenido por [Germán Bartoli](https://github.com/GermanBartoli). Guía revisada y actualizada con **Codex**, coautor de esta actualización documental. Los autores, colaboradores, licencias y recursos de terceros conservan sus créditos originales.
+
+Los commits de esta revisión incluyen `Co-authored-by: Codex <noreply@openai.com>`; esta atribución no modifica la autoría del historial anterior.
