@@ -12,7 +12,7 @@ namespace CameraReview.Product
         public List<Feature> Features { get; set; }
 
         public string GetContent() {
-            throw new NotImplementedException();
+            return $"Nombre: {Name}\nFabricante: {Manufacturer}\nSKU: {SKU}";
         }
     }
 }
